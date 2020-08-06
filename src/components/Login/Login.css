@@ -1,0 +1,38 @@
+.form-signin, .Login .form-signin{
+    width: 100%;
+}
+
+.form-signin .btn, .Login .form-signin .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
+#errorMessage{
+    width: 100%;
+    margin-top: -6%;
+    margin-bottom: 1%;
+    text-align: center;
+    color: red;
+    display: none;
+}
+
+.logIn{
+    background-image: url('../../images/logIn2.jpeg');
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.90;
+
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ok{
+    margin-top: 3%;
+}

@@ -1,0 +1,99 @@
+#header{
+    z-index: 300;
+    top: 0;
+    width: 100%;
+    background-color: #e9e9e9;
+    padding-bottom: 0.4%;
+}
+
+#header img{
+    width: 6%;
+}
+
+#header form{
+    width: 94%;
+}
+
+
+#header form input[type=text]{
+    width: 43%;
+    margin-left: 2%;
+}
+
+
+#header form input[type=submit]{
+    position: absolute;
+    height: 5.7%;
+    top: 2.5%;
+    left: 50.4%;
+    width: 6%;
+}
+
+#header form{
+    display: inline-block;
+}
+
+#header div{
+    border-radius: 10px;
+    margin-left: 3.6%;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+#header img:hover{
+    cursor: pointer;
+}
+
+.page-item:hover{
+    cursor: pointer;
+}
+
+#searchForm{
+    width: 73% !important;
+}
+
+#search{
+    width: 53.8% !important;
+}
+
+#logInButton, #logOutButton{
+    width: 6.1%;
+}
+
+#spinner{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 40%;
+    font-size: 15px;
+}
+
+.floatingButton{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: fixed;
+    font-size: 40px;
+    right: 5%;
+    bottom: 7%;
+}
+
+.floatingButton i{
+    position: relative;
+    top: -10%;
+}
+
+.floatingButton:hover{
+    transform: scale(1.2);
+}
+
+#king{
+    position: relative;
+    height: 100%;
+}
+
+.minHeight{
+    min-height: 67.5% !important;
+}
+

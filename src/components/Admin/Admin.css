@@ -1,0 +1,17 @@
+.Admin, .Admin div{
+    display: inline-block;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.Admin{
+    position: absolute;
+    top: 4%;
+    right: 10%;
+}
+
+.firstDiv{
+    position: relative;
+    right: 3%;
+}
+

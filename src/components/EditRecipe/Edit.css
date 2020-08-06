@@ -1,0 +1,15 @@
+.ok{
+    width: 100%;
+    margin-top: -1%;
+}
+#inputIngredients, #inputInstructions{
+    width: 91.8% !important;
+}
+
+.invalidBorder{
+    border: 1px solid red !important;
+}
+
+#create{
+    margin-top: -5%;
+}
