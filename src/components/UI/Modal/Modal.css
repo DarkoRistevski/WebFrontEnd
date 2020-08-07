@@ -36,7 +36,8 @@
 
 .modalHeaderContent{
     padding-top: 1%;
-
+    width: 80%;
+    margin-left: 10%;
 }
 
 .close{

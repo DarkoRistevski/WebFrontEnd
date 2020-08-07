@@ -1,4 +1,4 @@
-.form-create, .Login .form-create{
+.form-create, .Login .form-create {
     width: 100%;
 }
 
@@ -10,7 +10,7 @@
     transition: all 0.2s;
 }
 
-#errorMessage{
+#errorMessage {
     width: 100%;
     margin-top: -6%;
     margin-bottom: 1%;
@@ -19,7 +19,7 @@
     display: none;
 }
 
-.logIn{
+.logIn {
     background-image: url('../../images/logIn2.jpeg');
 
     width: 100%;
@@ -32,18 +32,79 @@
     background-size: cover;
 }
 
-.ok{
+.ok {
     width: 79%;
     margin-top: -1%;
 }
- #inputIngredients, #inputInstructions{
-     width: 91.8% !important;
- }
 
- .invalidBorder{
-     border: 1px solid red !important;
- }
+#inputIngredients, #inputInstructions {
+    width: 91.8% !important;
+}
 
- #create{
-     width: 100%;
- }
+.invalidBorder {
+    border: 1px solid red !important;
+}
+
+#create {
+    width: 100%;
+}
+
+#createIngredients {
+    height: 135px !important;
+    overflow: auto;
+    margin-left: -4.5%;
+    width: 95.5% !important;
+}
+
+#createInstructions {
+    height: 135px !important;
+    overflow: auto;
+    margin-left: -4.5%;
+    width: 95.5% !important;
+}
+
+#createIngredients div, #createInstructions div {
+    display: inline-block;
+    background-color: #ffdb99; /*#ffd280*/
+    padding: 10px;
+    margin: 5px;
+    overflow: auto;
+}
+
+ol li {
+    margin-left: 20px;
+}
+
+#inputIngredient, #inputInstruction {
+    display: inline-block;
+}
+
+.btnIng {
+    width: 10%;
+    margin-left: 0.5%;
+    margin-top: -0.5%;
+}
+
+#ingNotBtn, #insNotBtn {
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #ffffff !important; /*#ffd280*/
+    color: #007bff;
+    font-size: 80%;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1.49% !important;
+    width: 10%;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+#ingNotBtn:hover, #insNotBtn:hover {
+    background-color: #007bff !important;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.emptyError {
+    border: 1px solid red !important;
+}
