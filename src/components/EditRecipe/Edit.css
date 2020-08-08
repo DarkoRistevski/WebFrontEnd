@@ -12,4 +12,36 @@
 
 #create{
     margin-top: -5%;
+    margin-bottom: -2%;
+}
+
+#createIngredientsEdit {
+    height: 155px !important;
+    overflow: auto;
+    margin-left: -3.7%;
+    width: 95.5% !important;
+}
+
+#createInstructionsEdit {
+    height: 155px !important;
+    overflow: auto;
+    margin-left: -3.7%;
+    width: 95.5% !important;
+}
+
+#createIngredientsEdit div, #createInstructionsEdit div {
+    display: inline-block;
+    background-color: #ffdb99; /*#ffd280*/
+    padding: 10px;
+    margin: 5px;
+    overflow: auto;
+}
+
+.minusPadding{
+    margin-top: -1.2% !important;
+}
+
+.onHoverEdit:hover{
+    cursor: pointer;
+    transform: scale(1.04);
 }

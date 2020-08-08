@@ -22,9 +22,9 @@ class Recipes extends Component{
                 <div className="container">
                     <div className="row" style={{height: '100px', marginTop: '5%'}}>
 
-                        <CardRecipe clickEdit={this.props.clickEdit} click={this.props.click} deleteRecipe={this.props.deleteRecipe} image={recipe1} recipe={this.props.recipe1}/>
-                        <CardRecipe clickEdit={this.props.clickEdit} click={this.props.click} deleteRecipe={this.props.deleteRecipe} image={recipe4} recipe={this.props.recipe2}/>
-                        <CardRecipe clickEdit={this.props.clickEdit} click={this.props.click} deleteRecipe={this.props.deleteRecipe} image={recipe3} recipe={this.props.recipe3}/>
+                        <CardRecipe clickEdit={this.props.clickEdit} click={this.props.click} deleteRecipe={this.props.deleteRecipe} image={this.props.recipe1.image == null ? recipe1 : "http://localhost:8080/recipes/image/" + this.props.recipe1.id} recipe={this.props.recipe1}/>
+                        <CardRecipe clickEdit={this.props.clickEdit} click={this.props.click} deleteRecipe={this.props.deleteRecipe} image={this.props.recipe2.image == null ? recipe4 : "http://localhost:8080/recipes/image/" + this.props.recipe2.id} recipe={this.props.recipe2}/>
+                        <CardRecipe clickEdit={this.props.clickEdit} click={this.props.click} deleteRecipe={this.props.deleteRecipe} image={this.props.recipe3.image == null ? recipe3 : "http://localhost:8080/recipes/image/" + this.props.recipe3.id} recipe={this.props.recipe3}/>
 
                     </div>
                 </div>

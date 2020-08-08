@@ -68,6 +68,18 @@ class Create extends Component {
         this.props.history.push("/recipes");
     };
 
+    checkIfAllEmpty = (arr) => {
+
+        for(let i=0; i<arr.length; i++){
+            if(arr[i] != " "){
+                return false;
+            }
+        }
+
+        return true;
+
+    };
+
     isFormValid = (e) => {
 
         var flag = true;
@@ -86,14 +98,14 @@ class Create extends Component {
             document.getElementById("inputImage").classList.remove("invalidBorder");
         }
 
-        if (this.state.ingredients.length == 0) {
+        if (this.state.ingredients.length == 0 || (this.checkIfAllEmpty(this.state.ingredients))) {
             document.getElementById("createIngredients").classList.add("invalidBorder");
             flag = false;
         } else {
             document.getElementById("createIngredients").classList.remove("invalidBorder");
         }
 
-        if (this.state.instructions.length == 0) {
+        if (this.state.instructions.length == 0 || (this.checkIfAllEmpty(this.state.instructions))) {
             document.getElementById("createInstructions").classList.add("invalidBorder");
             flag = false;
         } else {

@@ -5,8 +5,8 @@ const RecipesRepository = {
 
     fetchRecipesPaged: (page, size, token) => {
 
-        console.log("-----------")
-        console.log(token);
+        // console.log("-----------")
+        // console.log(token);
 
         return axios.get("/recipes", {
             headers: {
@@ -56,10 +56,10 @@ const RecipesRepository = {
         return axios.post("/recipes/add", formData);
     },
 
-    updateRecipe: (recipeData) => {
+    updateRecipe: (formData) => {
 
-        const finalData = qs.stringify(recipeData);
-        return axios.patch("/recipes/update", finalData);
+        // const finalData = qs.stringify(formData);
+        return axios.patch("/recipes/update", formData);
 
     }
 
